@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/css/main.d1b05096.chunk.css",
-    "main.js": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/js/main.e4382ac5.chunk.js",
-    "main.js.map": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/js/main.e4382ac5.chunk.js.map",
-    "runtime-main.js": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/js/runtime-main.443d1136.js",
-    "runtime-main.js.map": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/js/runtime-main.443d1136.js.map",
-    "static/js/2.2990d003.chunk.js": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/js/2.2990d003.chunk.js",
-    "static/js/2.2990d003.chunk.js.map": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/js/2.2990d003.chunk.js.map",
-    "index.html": "git@github.com:UncaughtTypeError/What-The-Spec.git/index.html",
-    "precache-manifest.1a56a3ad924efd34c66838f5f805f7a6.js": "git@github.com:UncaughtTypeError/What-The-Spec.git/precache-manifest.1a56a3ad924efd34c66838f5f805f7a6.js",
-    "service-worker.js": "git@github.com:UncaughtTypeError/What-The-Spec.git/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.2990d003.chunk.js.LICENSE": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/js/2.2990d003.chunk.js.LICENSE",
-    "static/media/logo.svg": "git@github.com:UncaughtTypeError/What-The-Spec.git/static/media/logo.5d5d9eef.svg"
+    "main.css": "/What-The-Spec/static/css/main.d1b05096.chunk.css",
+    "main.js": "/What-The-Spec/static/js/main.56422319.chunk.js",
+    "main.js.map": "/What-The-Spec/static/js/main.56422319.chunk.js.map",
+    "runtime-main.js": "/What-The-Spec/static/js/runtime-main.f787ba04.js",
+    "runtime-main.js.map": "/What-The-Spec/static/js/runtime-main.f787ba04.js.map",
+    "static/js/2.2990d003.chunk.js": "/What-The-Spec/static/js/2.2990d003.chunk.js",
+    "static/js/2.2990d003.chunk.js.map": "/What-The-Spec/static/js/2.2990d003.chunk.js.map",
+    "index.html": "/What-The-Spec/index.html",
+    "precache-manifest.3f88cbed2526867d56cd74a3d0246ccc.js": "/What-The-Spec/precache-manifest.3f88cbed2526867d56cd74a3d0246ccc.js",
+    "service-worker.js": "/What-The-Spec/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/What-The-Spec/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2990d003.chunk.js.LICENSE": "/What-The-Spec/static/js/2.2990d003.chunk.js.LICENSE",
+    "static/media/logo.svg": "/What-The-Spec/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.443d1136.js",
+    "static/js/runtime-main.f787ba04.js",
     "static/js/2.2990d003.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.e4382ac5.chunk.js"
+    "static/js/main.56422319.chunk.js"
   ]
 }
