@@ -7,4 +7,4 @@
 - React Router
 - MaterialUI
 
-**See:** [uncaughttypeerror.github.io/what-the-spec](https://uncaughttypeerror.github.io/what-the-spec/)
+**See:** [uncaughttypeerror.github.io/What-The-Spec](https://uncaughttypeerror.github.io/What-The-Spec/)
