@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "git@github.com:UncaughtTypeError/What-The-Spec.git/precache-manifest.37e64f6a3956e0fa744287619f024c34.js"
+  "git@github.com:UncaughtTypeError/What-The-Spec.git/precache-manifest.1a56a3ad924efd34c66838f5f805f7a6.js"
 );
 
 self.addEventListener('message', (event) => {

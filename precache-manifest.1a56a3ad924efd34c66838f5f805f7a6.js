@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56eef828455e6483f01ff2220a5d5e11",
+    "revision": "d2572bb7475be1156807877f6b0f707c",
     "url": "git@github.com:UncaughtTypeError/What-The-Spec.git/index.html"
   },
   {
