@@ -1,6 +1,6 @@
 {
-  "homepage": "https://uncaughttypeerror.github.io/what-the-spec",
-  "name": "what-the-spec",
+  "homepage": "git@github.com:UncaughtTypeError/What-The-Spec.git",
+  "name": "What-The-Spec",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
