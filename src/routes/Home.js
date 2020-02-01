@@ -1,7 +1,12 @@
 import React from 'react';
 
+// Components
+import RandomQuote from '../components/RandomQuote';
+
 const Home = () => (
-    <div>--- WIP ---</div>
+   
+   <RandomQuote/>
+   
 );
 
 export default Home;
