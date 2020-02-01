@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3Alt, faHtml5, faJs } from '@fortawesome/free-brands-svg-icons';
 
 const Nav = () => (
+
     <nav>
         <ul>
             <li className='css'>
@@ -28,6 +29,7 @@ const Nav = () => (
             </li>
         </ul>
     </nav>
+    
 );
 
 export default Nav;
