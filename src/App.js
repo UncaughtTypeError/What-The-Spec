@@ -2,12 +2,12 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import React from 'react';
 
 // Components
-import Nav from './components/Nav';
+import Header from './components/Header';
 import Body from './components/Body';
 
 const App = () => (
   <Router>
-    <Nav/>
+    <Header/>
     <Body/>
   </Router>
 );
