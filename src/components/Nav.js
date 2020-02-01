@@ -8,20 +8,20 @@ import { faCss3Alt, faHtml5, faJs } from '@fortawesome/free-brands-svg-icons';
 const Nav = () => (
     <nav>
         <ul>
-            <li>
-                <Link to="/css">
+            <li className='css'>
+                <Link to='/css'>
                     <FontAwesomeIcon icon={faCss3Alt} />
                     CSS
                 </Link>
             </li>
-            <li>
-                <Link to="/html">
+            <li className='html'>
+                <Link to='/html'>
                     <FontAwesomeIcon icon={faHtml5} />
                     HTML
                 </Link>
             </li>
-            <li>
-                <Link to="/javascript">
+            <li className='js'>
+                <Link to='/javascript'>
                     <FontAwesomeIcon icon={faJs} />
                     Javascript
                 </Link>
