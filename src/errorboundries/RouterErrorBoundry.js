@@ -4,13 +4,19 @@ class RouterErrorBoundry extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { hasError: false }
+        this.state = { 
+            hasError: false,
+            error: null,
+        }
     }
 
     // Lifecycle method : called during render phase
     static getDerivedStateFromError(error) {
         // Use to update state so the next render will show the fallback UI.
-        return { hasError: true };
+        return { 
+            hasError: true,
+            error: error,
+        };
     }
 
     // Lifecycle method : called during commit phase
