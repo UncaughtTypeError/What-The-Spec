@@ -1,5 +1,19 @@
+:root {
+  --primary-color: gainsboro;
+  --ui-color-alpha: #252525;
+  --ui-color-beta: #333333;
+  --css-color: #16a1dc;
+  --html-color: #e34f26;
+  --js-color: #f0db4f;
+}
+
 * {
   box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -11,7 +25,85 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: var(--primary-color);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  height: 100%;
+  min-height: 100%;
+  background: var(--ui-color-alpha);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* || Header */
+header h1 {
+  font-weight: normal;
+  font-size: 5em;
+  margin: auto;
+}
+
+header h2 {
+  font-weight: normal;
+}
+
+/* || Nav */
+nav ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul > li {
+  margin: 20px 10px;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  transition: .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background: var(--ui-color-beta);
+}
+
+nav ul > li.css:hover {
+  background: var(--css-color);
+}
+
+nav ul > li.html:hover {
+  background: var(--html-color);
+}
+
+nav ul > li.js:hover {
+  background: var(--js-color);
+}
+
+nav ul > li.js:hover a {
+  color: var(--ui-color-beta);
+}
+
+nav ul > li svg[class*='svg'] {
+  display: block;
+  margin: auto;
+  font-size: 7em;
 }
