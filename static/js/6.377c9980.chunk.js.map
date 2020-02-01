@@ -1,0 +1,1 @@
+{"version":3,"sources":["routes/Javascript.js"],"names":["Javascript"],"mappings":"qHAAA,2BAMeA,UAJI,kBACf","file":"static/js/6.377c9980.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nconst Javascript = () => (\r\n    <div>Javascript</div>\r\n);\r\n\r\nexport default Javascript;"],"sourceRoot":""}
