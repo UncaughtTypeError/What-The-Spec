@@ -7,7 +7,7 @@ const Header = () => (
 
     <header>
         <hgroup>
-            <h1>What The Spec?</h1>
+            <h1><span>W</span>hat <span>T</span>he <span>S</span>pec?</h1>
             <h2>Definition on status specifications for CSS, HTML & Javascript</h2>
         </hgroup>
         <Nav/>
