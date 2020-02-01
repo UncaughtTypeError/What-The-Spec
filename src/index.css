@@ -107,3 +107,14 @@ nav ul > li svg[class*='svg'] {
   margin: auto;
   font-size: 7em;
 }
+
+/* || Footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px;
+}
