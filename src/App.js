@@ -1,28 +1,14 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import React, { Suspense, lazy } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import React from 'react';
 
 // Components
-import RouterErrorBoundry from './errorboundries/RouterErrorBoundry';
 import Nav from './components/Nav';
-
-const Home = lazy(() => import('./routes/Home')),
-      CSS = lazy(() => import('./routes/CSS')),
-      HTML = lazy(() => import('./routes/HTML')),
-      Javascript = lazy(() => import('./routes/Javascript'));
+import Body from './components/Body';
 
 const App = () => (
   <Router>
     <Nav/>
-    <RouterErrorBoundry>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route path={'/css'} component={CSS}/>
-          <Route path={'/html'} component={HTML}/>
-          <Route path={'/javascript'} component={Javascript}/>
-        </Switch>
-      </Suspense>
-    </RouterErrorBoundry>
+    <Body/>
   </Router>
 );
 
