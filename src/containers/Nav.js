@@ -22,7 +22,7 @@ function Nav() {
 
     useEffect(() => {
         dispatch(updateView(view));
-    }, [dispatch]);
+    }, [dispatch, view]);
 
     return (
         <nav data-view={view}>
