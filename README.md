@@ -5,6 +5,12 @@
 - React
 - Redux
 - React Router
-- MaterialUI
 
 **See:** [uncaughttypeerror.github.io/What-The-Spec](https://uncaughttypeerror.github.io/What-The-Spec/)
+
+### TODO:
+- responsive styling
+- CSS module extrapolation
+- add citation links in views
+- enable service worker
+- setup PWA
