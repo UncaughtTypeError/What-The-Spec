@@ -127,6 +127,29 @@ nav ul > li svg[class*='svg'] {
   font-size: 7em;
 }
 
+nav:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  transition: .5s;
+  background: var(--ui-color-beta);
+}
+
+nav[data-view='css']:before {
+  background: #16a1dc;
+}
+
+nav[data-view='html']:before {
+  background: #e34f26;
+}
+
+nav[data-view='javascript']:before {
+  background: #f0db4f;
+}
+
 /* || View */
 .viewContent {
   max-width: 850px;
@@ -223,4 +246,28 @@ footer {
   right: 0;
   width: 100%;
   padding: 20px;
+  font-size: smaller;
+}
+
+footer ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li img {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  margin-left: 10px;
+}
+
+footer ul li {
+  margin: 0 15px;
+}
+
+footer ul li, footer ul li a {
+  color: gray;
 }
