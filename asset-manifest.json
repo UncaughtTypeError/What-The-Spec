@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/What-The-Spec/static/css/main.aeffe4c1.chunk.css",
-    "main.js": "/What-The-Spec/static/js/main.7432fb2c.chunk.js",
-    "main.js.map": "/What-The-Spec/static/js/main.7432fb2c.chunk.js.map",
-    "runtime-main.js": "/What-The-Spec/static/js/runtime-main.1a3edb02.js",
-    "runtime-main.js.map": "/What-The-Spec/static/js/runtime-main.1a3edb02.js.map",
+    "main.js": "/What-The-Spec/static/js/main.b81bc2ac.chunk.js",
+    "main.js.map": "/What-The-Spec/static/js/main.b81bc2ac.chunk.js.map",
+    "runtime-main.js": "/What-The-Spec/static/js/runtime-main.20b129b7.js",
+    "runtime-main.js.map": "/What-The-Spec/static/js/runtime-main.20b129b7.js.map",
     "static/js/2.5961b4f5.chunk.js": "/What-The-Spec/static/js/2.5961b4f5.chunk.js",
     "static/js/2.5961b4f5.chunk.js.map": "/What-The-Spec/static/js/2.5961b4f5.chunk.js.map",
     "static/js/3.c5069d8a.chunk.js": "/What-The-Spec/static/js/3.c5069d8a.chunk.js",
     "static/js/3.c5069d8a.chunk.js.map": "/What-The-Spec/static/js/3.c5069d8a.chunk.js.map",
     "static/js/4.a638b12d.chunk.js": "/What-The-Spec/static/js/4.a638b12d.chunk.js",
     "static/js/4.a638b12d.chunk.js.map": "/What-The-Spec/static/js/4.a638b12d.chunk.js.map",
-    "static/js/5.09acfa67.chunk.js": "/What-The-Spec/static/js/5.09acfa67.chunk.js",
-    "static/js/5.09acfa67.chunk.js.map": "/What-The-Spec/static/js/5.09acfa67.chunk.js.map",
+    "static/js/5.b4e4bc38.chunk.js": "/What-The-Spec/static/js/5.b4e4bc38.chunk.js",
+    "static/js/5.b4e4bc38.chunk.js.map": "/What-The-Spec/static/js/5.b4e4bc38.chunk.js.map",
     "static/js/6.71d4b965.chunk.js": "/What-The-Spec/static/js/6.71d4b965.chunk.js",
     "static/js/6.71d4b965.chunk.js.map": "/What-The-Spec/static/js/6.71d4b965.chunk.js.map",
     "index.html": "/What-The-Spec/index.html",
-    "precache-manifest.78eb24bb3b810dfa269656860c07c7be.js": "/What-The-Spec/precache-manifest.78eb24bb3b810dfa269656860c07c7be.js",
+    "precache-manifest.0beae4c14d511dda20b2a77adb3a577a.js": "/What-The-Spec/precache-manifest.0beae4c14d511dda20b2a77adb3a577a.js",
     "service-worker.js": "/What-The-Spec/service-worker.js",
     "static/css/main.aeffe4c1.chunk.css.map": "/What-The-Spec/static/css/main.aeffe4c1.chunk.css.map",
     "static/js/2.5961b4f5.chunk.js.LICENSE": "/What-The-Spec/static/js/2.5961b4f5.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a3edb02.js",
+    "static/js/runtime-main.20b129b7.js",
     "static/js/2.5961b4f5.chunk.js",
     "static/css/main.aeffe4c1.chunk.css",
-    "static/js/main.7432fb2c.chunk.js"
+    "static/js/main.b81bc2ac.chunk.js"
   ]
 }
