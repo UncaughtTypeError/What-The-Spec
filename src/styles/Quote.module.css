@@ -1,0 +1,10 @@
+.base:before {
+    content: '\201C';
+    font-size: 7em;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -35px;
+    color: var(--ui-color-beta);
+    isolation: isolate;
+    font-family: arial;
+}
