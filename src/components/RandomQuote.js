@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+
+// Redux
 import { useDispatch, useSelector } from 'react-redux';
 
 // Actions
