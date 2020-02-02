@@ -3,6 +3,9 @@ import React, { useEffect } from 'react';
 // Redux
 import { useDispatch, useSelector } from 'react-redux';
 
+// Styles
+import styles from '../styles/Quote.module.css';
+
 // Actions
 import { updateQuote } from '../redux/actions';
 
@@ -17,14 +20,11 @@ function RandomQuote() {
     }, [dispatch]);
     
     return (
-        quote ?
+        quote &&
             <blockquote>
+                <span className={styles.base}>&#8220;</span>
                 {quote}
                 <cite> ~ {cite}</cite>
-            </blockquote>
-        : 
-            <blockquote>
-                &nbsp;
             </blockquote>
     )
     
