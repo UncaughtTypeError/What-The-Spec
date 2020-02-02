@@ -1,5 +1,5 @@
 ## What The Spec
-**WIP:** definition on status specifications for CSS, HTML & Javascript
+**WIP:** definitions on proposal stages for CSS, HTML & Javascript specifications
 
 ### Built with:
 - React
