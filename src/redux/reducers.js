@@ -23,14 +23,14 @@ export const updateQuote = (state = initialStateQuote, action = {}) => {
 }
 
 const initialStateSpecView = {
-    spec: null
+    view: null
 }
 
 export const updateSpecView = (state = initialStateSpecView, action = {}) => {
 
     switch(action.type) {
         case UPDATE_VIEW:
-            return { ...state, spec: action.view };
+            return { ...state, view: action.view };
         default:
             return state;
     }
