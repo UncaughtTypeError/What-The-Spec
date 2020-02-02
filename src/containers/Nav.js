@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+// Styles
+import styles from '../styles/Nav.module.css';
+
 // Redux
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -25,21 +28,21 @@ function Nav() {
     }, [dispatch, view]);
 
     return (
-        <nav data-view={view}>
+        <nav data-view={view} className={styles.base}>
             <ul>
-                <li className='css'>
+                <li className={styles.css}>
                     <Link to='/css' onClick={() => setView('css')}>
                         <FontAwesomeIcon icon={faCss3Alt} />
                         CSS
                     </Link>
                 </li>
-                <li className='html'>
+                <li className={styles.html}>
                     <Link to='/html' onClick={() => setView('html')}>
                         <FontAwesomeIcon icon={faHtml5} />
                         HTML
                     </Link>
                 </li>
-                <li className='js' onClick={() => setView('javascript')}>
+                <li className={styles.js} onClick={() => setView('javascript')}>
                     <Link to='/javascript'>
                         <FontAwesomeIcon icon={faJs} />
                         Javascript

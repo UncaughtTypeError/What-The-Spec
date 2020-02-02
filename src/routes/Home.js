@@ -4,9 +4,7 @@ import React from 'react';
 import RandomQuote from '../containers/RandomQuote';
 
 const Home = () => (
-   
    <RandomQuote/>
-   
 );
 
 export default Home;

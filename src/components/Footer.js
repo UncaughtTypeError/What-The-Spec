@@ -1,12 +1,15 @@
 import React from 'react';
 
+// Styles
+import styles from '../styles/Footer.module.css';
+
 // Libraries
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
 
-    <footer>
+    <footer className={styles.base}>
         <ul>
             <li><em>What The Spec?</em></li>
             <li>Source code on <FontAwesomeIcon icon={faGithub} /> <a href="https://github.com/UncaughtTypeError/What-The-Spec/" target="_blank" rel="noopener" title="Github Repo">GitHub</a></li> 

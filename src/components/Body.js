@@ -1,6 +1,9 @@
 import React, { Suspense, lazy } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
+// Styles
+import styles from '../styles/Body.module.css';
+
 // Components
 import RouterErrorBoundry from '../errorboundries/RouterErrorBoundry';
 
@@ -12,8 +15,8 @@ const   Home = lazy(() => import('../routes/Home')),
 const Body = () => (
 
     <RouterErrorBoundry>
-        <section className='viewContent'>
-            <Suspense fallback={<div className='viewContent__title viewContent--loading'>Loading...</div>}>
+        <section className={styles.base}>
+            <Suspense fallback={<div className={styles.title}>Loading...</div>}>
                 <Switch>
                     <Route exact path='/' component={Home}/>
                     <Route path={'/css'} component={CSS}/>
