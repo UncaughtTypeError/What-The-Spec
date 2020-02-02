@@ -11,7 +11,7 @@ const quotesAlpha = [
         cite: PERSON_ALPHA,
     },
     {
-        quote: 'Damn. I forgot again...',
+        quote: 'Just going to look that up real quick...',
         cite: PERSON_ALPHA,
     },
 ];
