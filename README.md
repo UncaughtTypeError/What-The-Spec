@@ -6,7 +6,7 @@
 - Redux
 - React Router
 
-#### Other quirks:
+### Other quirks:
 - React Suspense and Lazy used for asynchronous route-based code splitting
 - Error Boundries set up for fallback UI output on caught errors in component trees
 - Built using Hooks
