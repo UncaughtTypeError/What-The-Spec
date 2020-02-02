@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 class RouterErrorBoundry extends Component {
 
@@ -27,7 +27,12 @@ class RouterErrorBoundry extends Component {
 
     render() {
         if(this.state.hasError) {
-            return <h1>Error</h1>
+            return (
+                <Fragment>
+                    <h1>Oops! We got nothing.</h1>
+                    <h3>Error loading route</h3>
+                </Fragment>
+            )
         }
 
         return this.props.children;
