@@ -12,14 +12,16 @@ const   Home = lazy(() => import('../routes/Home')),
 const Body = () => (
 
     <RouterErrorBoundry>
-        <Suspense fallback={<blockquote>Loading...</blockquote>}>
-            <Switch>
-                <Route exact path='/' component={Home}/>
-                <Route path={'/css'} component={CSS}/>
-                <Route path={'/html'} component={HTML}/>
-                <Route path={'/javascript'} component={Javascript}/>
-            </Switch>
-        </Suspense>
+        <section className='viewContent'>
+            <Suspense fallback={<div className='viewContent__title viewContent--loading'>Loading...</div>}>
+                <Switch>
+                    <Route exact path='/' component={Home}/>
+                    <Route path={'/css'} component={CSS}/>
+                    <Route path={'/html'} component={HTML}/>
+                    <Route path={'/javascript'} component={Javascript}/>
+                </Switch>
+            </Suspense>
+        </section>
     </RouterErrorBoundry>
 
 );
