@@ -23,7 +23,7 @@ export const updateQuote = (state = initialStateQuote, action = {}) => {
 }
 
 const initialStateSpecView = {
-    view: null
+    view: window.location.pathname.replace('/','')
 }
 
 export const updateSpecView = (state = initialStateSpecView, action = {}) => {
