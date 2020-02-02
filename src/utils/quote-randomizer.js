@@ -3,7 +3,7 @@ const   PERSON_ALPHA = 'Jeff',
 
 const quotesAlpha = [
     {
-        quote: 'What\'s the difference between "Candidate" and "Draft Candidate" again?',
+        quote: 'What\'s the difference between "Candidate Recommendation" and "Proposed Recommendation" again?',
         cite: PERSON_ALPHA,
     },
     {
