@@ -1,0 +1,16 @@
+.base h1 {
+    font-weight: normal;
+    font-size: 5em;
+    margin: auto;
+    opacity: .8;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.base h1 span {
+    font-size: calc(1em + 35px);
+}
+
+.base h2 {
+    font-weight: normal;
+}
