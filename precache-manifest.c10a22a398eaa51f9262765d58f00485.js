@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00461d38950d889dd7ec5035dced1388",
+    "revision": "81bd23492f83c1fbaa82f1b9e7e4e30d",
     "url": "/What-The-Spec/index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/What-The-Spec/static/css/5.e6856fac.chunk.css"
   },
   {
-    "revision": "0653f902fcb8d47013d7",
+    "revision": "410ffc2c0f5e5b895a43",
     "url": "/What-The-Spec/static/css/6.e780814d.chunk.css"
   },
   {
@@ -44,15 +44,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/What-The-Spec/static/js/5.300a9fd0.chunk.js"
   },
   {
-    "revision": "0653f902fcb8d47013d7",
-    "url": "/What-The-Spec/static/js/6.20d40077.chunk.js"
+    "revision": "410ffc2c0f5e5b895a43",
+    "url": "/What-The-Spec/static/js/6.9557c09a.chunk.js"
   },
   {
     "revision": "ffaa740ebea3155cf069",
     "url": "/What-The-Spec/static/js/main.3ce0acd1.chunk.js"
   },
   {
-    "revision": "d45b84708a2e50ced196",
-    "url": "/What-The-Spec/static/js/runtime-main.e83aa040.js"
+    "revision": "633d43b732e222453f31",
+    "url": "/What-The-Spec/static/js/runtime-main.e80a14bc.js"
   }
 ]);
