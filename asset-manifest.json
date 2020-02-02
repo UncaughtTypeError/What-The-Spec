@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/What-The-Spec/static/css/main.ad269c61.chunk.css",
-    "main.js": "/What-The-Spec/static/js/main.2845f8ba.chunk.js",
-    "main.js.map": "/What-The-Spec/static/js/main.2845f8ba.chunk.js.map",
+    "main.js": "/What-The-Spec/static/js/main.2cc9e127.chunk.js",
+    "main.js.map": "/What-The-Spec/static/js/main.2cc9e127.chunk.js.map",
     "runtime-main.js": "/What-The-Spec/static/js/runtime-main.d43933b3.js",
     "runtime-main.js.map": "/What-The-Spec/static/js/runtime-main.d43933b3.js.map",
     "static/js/2.0b965d82.chunk.js": "/What-The-Spec/static/js/2.0b965d82.chunk.js",
@@ -16,7 +16,7 @@
     "static/js/6.ff1161aa.chunk.js": "/What-The-Spec/static/js/6.ff1161aa.chunk.js",
     "static/js/6.ff1161aa.chunk.js.map": "/What-The-Spec/static/js/6.ff1161aa.chunk.js.map",
     "index.html": "/What-The-Spec/index.html",
-    "precache-manifest.859c5ed338735441fcd45b4bc7b9b44e.js": "/What-The-Spec/precache-manifest.859c5ed338735441fcd45b4bc7b9b44e.js",
+    "precache-manifest.06d03d497477d5256615e1ebeb934402.js": "/What-The-Spec/precache-manifest.06d03d497477d5256615e1ebeb934402.js",
     "service-worker.js": "/What-The-Spec/service-worker.js",
     "static/css/main.ad269c61.chunk.css.map": "/What-The-Spec/static/css/main.ad269c61.chunk.css.map",
     "static/js/2.0b965d82.chunk.js.LICENSE": "/What-The-Spec/static/js/2.0b965d82.chunk.js.LICENSE"
@@ -25,6 +25,6 @@
     "static/js/runtime-main.d43933b3.js",
     "static/js/2.0b965d82.chunk.js",
     "static/css/main.ad269c61.chunk.css",
-    "static/js/main.2845f8ba.chunk.js"
+    "static/js/main.2cc9e127.chunk.js"
   ]
 }
