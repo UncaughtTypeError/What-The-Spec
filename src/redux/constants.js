@@ -1,0 +1,8 @@
+const CONSTANTS = {
+    UPDATE_QUOTE: 'UPDATE_QUOTE',
+    CSS_VIEW: 'CSS_VIEW',
+    HTML_VIEW: 'HTML_VIEW',
+    JS_VIEW: 'JS_VIEW'
+}
+
+export default CONSTANTS;
