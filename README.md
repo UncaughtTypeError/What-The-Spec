@@ -11,6 +11,7 @@
 - Error Boundries set up for fallback UI output on caught errors in component trees
 - Built using Hooks
 - Styled using CSS Modules
+- Service worker enabled with run-time caching
 
 **See:** [uncaughttypeerror.github.io/What-The-Spec](https://uncaughttypeerror.github.io/What-The-Spec/)
 
@@ -18,5 +19,4 @@
 - responsive styling
 - light/dark themes
 - add citation links in views
-- enable service worker
 - setup PWA
