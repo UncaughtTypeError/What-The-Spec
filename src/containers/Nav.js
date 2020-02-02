@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 // Redux
@@ -20,6 +20,10 @@ function Nav() {
         dispatch(updateView(view));
     }
 
+    useEffect(() => {
+        dispatch(updateView(view));
+    }, [dispatch]);
+
     return (
         <nav data-view={view}>
             <ul>
@@ -35,7 +39,7 @@ function Nav() {
                         HTML
                     </Link>
                 </li>
-                <li className='js' onClick={() => setView('js')}>
+                <li className='js' onClick={() => setView('javascript')}>
                     <Link to='/javascript'>
                         <FontAwesomeIcon icon={faJs} />
                         Javascript
