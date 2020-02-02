@@ -22,7 +22,6 @@ function RandomQuote() {
     return (
         quote &&
             <blockquote className={styles.base}>
-                <span>&#8220;</span>
                 {quote}
                 <cite> ~ {cite}</cite>
             </blockquote>
