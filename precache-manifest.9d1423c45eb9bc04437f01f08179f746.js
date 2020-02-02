@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81bd23492f83c1fbaa82f1b9e7e4e30d",
+    "revision": "8686cd3ef288220cd3efed4b15f74461",
     "url": "/What-The-Spec/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/What-The-Spec/static/css/6.e780814d.chunk.css"
   },
   {
-    "revision": "ffaa740ebea3155cf069",
+    "revision": "13f53012bcae9901430a",
     "url": "/What-The-Spec/static/css/main.9bdf93f3.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/What-The-Spec/static/js/6.9557c09a.chunk.js"
   },
   {
-    "revision": "ffaa740ebea3155cf069",
-    "url": "/What-The-Spec/static/js/main.3ce0acd1.chunk.js"
+    "revision": "13f53012bcae9901430a",
+    "url": "/What-The-Spec/static/js/main.dd43c193.chunk.js"
   },
   {
     "revision": "633d43b732e222453f31",
