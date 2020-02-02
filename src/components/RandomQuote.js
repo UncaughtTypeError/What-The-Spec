@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 
-// Scripts
-import randomQuote from '../utils/quote-randomizer';
+// Actions
+import { updateQuote } from '../redux/actions';
 
-const RandomQuote = () => (
+function RandomQuote() {
+
+const   quote = useSelector(state => state.updateQuote.quote),
+        cite = useSelector(state => state.updateQuote.cite),
+        dispatch = useDispatch(),
+        props = { quote, cite, dispatch };
+
+    useEffect(() => {
+        dispatch(updateQuote());
+    }, [dispatch]);
     
-    <blockquote>
-        {randomQuote.quote}
-        <cite>~ {randomQuote.cite}</cite>
-    </blockquote>
+    return (
+        props.quote ?
+            <blockquote>
+                {props.quote}
+                <cite> ~ {props.cite}</cite>
+            </blockquote>
+        : 
+            <blockquote>
+                &nbsp;
+            </blockquote>
+    )
     
-);
+};
 
 export default RandomQuote;
