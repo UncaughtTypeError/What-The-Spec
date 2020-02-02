@@ -6,17 +6,21 @@ import randomQuote from '../utils/quote-randomizer';
 
 const {
     UPDATE_QUOTE,
-    CSS_VIEW,
-    HTML_VIEW,
-    JS_VIEW
+    UPDATE_VIEW,
 } = CONSTANTS;
 
 const quote = randomQuote || {};
 
 export const updateQuote = () => {
-    console.log({quote});
     return {
         type: UPDATE_QUOTE,
         payload: quote,
     }
 }
+
+export const updateView = (view) => {
+    return {
+        type: UPDATE_VIEW,
+        view: view,
+    }
+} 

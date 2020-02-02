@@ -3,9 +3,7 @@ import CONSTANTS from './constants';
 
 const {
     UPDATE_QUOTE,
-    CSS_VIEW,
-    HTML_VIEW,
-    JS_VIEW
+    UPDATE_VIEW,
 } = CONSTANTS;
 
 const initialStateQuote = {
@@ -31,12 +29,8 @@ const initialStateSpecView = {
 export const updateSpecView = (state = initialStateSpecView, action = {}) => {
 
     switch(action.type) {
-        case CSS_VIEW:
-            return { ...state, spec: 'css' };
-        case HTML_VIEW:
-            return { ...state, spec: 'html' };
-        case JS_VIEW:
-            return { ...state, spec: 'js' };
+        case UPDATE_VIEW:
+            return { ...state, spec: action.view };
         default:
             return state;
     }
