@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Components
-import RandomQuote from '../components/RandomQuote';
+import RandomQuote from '../containers/RandomQuote';
 
 const Home = () => (
    
