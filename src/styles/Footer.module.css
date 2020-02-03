@@ -29,5 +29,5 @@
 
 .base ul li, 
 .base ul li a {
-    color: gray;
+    color: var(--ui-color-subtle);
 }
