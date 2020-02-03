@@ -18,5 +18,4 @@
 ### TODO:
 - responsive styling
 - light/dark themes
-- add citation links in views
 - setup PWA
