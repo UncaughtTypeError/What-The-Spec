@@ -90,3 +90,23 @@
 .list .stage-5 li:first-child {
     background: #2f9b3f;
 }
+
+.sources {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.sources li {
+    font-size: small;
+    margin: 0 15px;
+    color: gray;
+}
+
+.sources li a {
+    color: inherit;
+}
+
+.sources li:first-child {
+    list-style: none;
+}
