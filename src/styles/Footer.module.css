@@ -31,3 +31,29 @@
 .base ul li a {
     color: var(--ui-color-subtle);
 }
+
+@media(max-width: 768px) {
+
+    .base ul {
+        flex-direction: column;
+    }
+    
+    .base ul li img {
+        position: relative;
+        top: 0;
+        transform: inherit;
+        display: block;
+        margin: 10px auto 0 auto;
+    }
+    
+    .base ul li {
+        margin: 5px;
+        list-style: none;
+    }
+    
+    .base {
+        position: relative;
+        padding: 0 20px;
+    }
+
+}

@@ -66,6 +66,8 @@
     height: 5px;
     transition: .5s;
     background: var(--ui-color-beta);
+    z-index: 9;
+
 }
 
 .base[data-view='css']:before {
@@ -78,4 +80,19 @@
 
 .base[data-view='javascript']:before {
     background: #f0db4f;
+}
+
+@media(max-width: 650px) {
+
+    .base ul > li {
+        min-width: initial;
+        min-height: initial;
+        flex-basis: 100%;
+        margin: 10px 10px;
+    }
+    
+    .base ul {
+        flex-wrap: wrap;
+    }
+
 }

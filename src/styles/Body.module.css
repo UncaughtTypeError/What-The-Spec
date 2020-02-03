@@ -10,3 +10,11 @@
     min-height: 100vh;
     opacity: .5;
 }
+
+@media(max-width: 950px) {
+
+    .base {
+        width: 88%;
+    }
+
+}

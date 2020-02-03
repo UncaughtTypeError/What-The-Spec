@@ -14,3 +14,20 @@
 .base h2 {
     font-weight: normal;
 }
+
+@media(max-width: 950px) {
+
+    .base h1 {
+        font-size: 3em;
+    }
+
+}
+
+@media(max-width: 650px) {
+
+    .base h1 {
+        font-size: 2em;
+        line-height: 2em;
+    }
+
+}

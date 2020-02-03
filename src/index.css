@@ -47,3 +47,27 @@ code {
   text-align: center;
   transition: .5s;
 }
+
+@media(max-width: 950px) {
+
+  html, body {
+    overflow: auto;
+  }
+
+}
+
+@media(max-width: 768px) {
+
+  #root {
+    padding-bottom: 20px;
+  }
+
+}
+
+@media(max-width: 650px) {
+
+  #root {
+    padding-top: 50px;
+  }
+
+}
