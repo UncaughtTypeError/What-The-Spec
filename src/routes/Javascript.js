@@ -21,6 +21,19 @@ const SpecList = () => {
     );
 }
 
+const Sources = () => {
+    let props = {
+        target: '_blank',
+        rel: 'noopener noreferrer'
+    };
+
+    return (
+        <ul className={styles.sources}>
+            <li><a href="https://tc39.es/process-document/" {...props} title="The TC39 Process">The TC39 Process</a></li>
+        </ul>
+    );
+}
+
 const Javascript = () => {
     return (
         <Fragment>
@@ -34,6 +47,7 @@ const Javascript = () => {
                 </ul>
                 <SpecList/>
             </div>
+            <Sources/>
         </Fragment>
     );
 };
