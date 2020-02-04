@@ -1,1 +1,0 @@
-{"version":3,"sources":["routes/Home.js"],"names":["Home"],"mappings":"qHAAA,2BAMeA,UAJF,kBACT","file":"static/js/5.0094f826.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nconst Home = () => (\r\n    <div>--- WIP ---</div>\r\n);\r\n\r\nexport default Home;"],"sourceRoot":""}

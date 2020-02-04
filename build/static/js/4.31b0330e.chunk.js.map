@@ -1,1 +1,0 @@
-{"version":3,"sources":["routes/HTML.js"],"names":["HTML"],"mappings":"qHAAA,2BAMeA,UAJF,kBACT","file":"static/js/4.31b0330e.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nconst HTML = () => (\r\n    <div>HTML</div>\r\n);\r\n\r\nexport default HTML;"],"sourceRoot":""}
