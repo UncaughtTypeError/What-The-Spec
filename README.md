@@ -1,5 +1,5 @@
 ## What The Spec
-**WIP:** definitions on proposal stages for CSS, HTML & Javascript specifications
+Definitions on proposal stages for CSS, HTML & Javascript specifications
 
 ### Built with:
 - React
@@ -12,10 +12,6 @@
 - Built using Hooks
 - Styled using CSS Modules
 - Service worker enabled with runtime caching
+- PWA - progressive web app
 
 **See:** [uncaughttypeerror.github.io/What-The-Spec](https://uncaughttypeerror.github.io/What-The-Spec/)
-
-### TODO:
-- responsive styling
-- light/dark themes
-- setup PWA
