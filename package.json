@@ -1,8 +1,10 @@
 {
-  "homepage": "https://uncaughttypeerror.github.io/What-The-Spec/",
+  "homepage": ".",
   "name": "What-The-Spec",
   "version": "0.1.0",
   "private": true,
+  "type": "git",
+  "url": "https://github.com/UncaughtTypeError/What-The-Spec",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
