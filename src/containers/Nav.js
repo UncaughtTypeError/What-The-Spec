@@ -31,19 +31,19 @@ function Nav() {
         <nav data-view={view} className={styles.base}>
             <ul>
                 <li className={styles.css}>
-                    <Link to='/css' onClick={() => setView('css')}>
+                    <Link to='./css' onClick={() => setView('css')}>
                         <FontAwesomeIcon icon={faCss3Alt} />
                         CSS
                     </Link>
                 </li>
                 <li className={styles.html}>
-                    <Link to='/html' onClick={() => setView('html')}>
+                    <Link to='./html' onClick={() => setView('html')}>
                         <FontAwesomeIcon icon={faHtml5} />
                         HTML
                     </Link>
                 </li>
                 <li className={styles.js} onClick={() => setView('javascript')}>
-                    <Link to='javascript'>
+                    <Link to='./javascript'>
                         <FontAwesomeIcon icon={faJs} />
                         Javascript
                     </Link>
