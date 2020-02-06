@@ -28,10 +28,10 @@ class RouterErrorBoundry extends Component {
     render() {
         if(this.state.hasError) {
             return (
-                <Fragment>
+                <div style={{fontWeight: 'normal'}}>
                     <h1>Oops! We got nothing.</h1>
                     <h3>Error loading route</h3>
-                </Fragment>
+                </div>
             )
         }
 
