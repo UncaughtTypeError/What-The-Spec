@@ -3,10 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <meta
       name="description"
       content="Definitions on proposal stages for CSS, HTML & Javascript specifications"
     />
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="N. G. J. Shepherd">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="What The Spec">
+    <meta property="og:site_name" content="What The Spec">
+    <meta property="og:url" content="%PUBLIC_URL%/">
+    <meta property="og:description" content="Definitions on proposal stages for CSS, HTML & Javascript specifications">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="%PUBLIC_URL%/icons/favicon.ico">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@whatthespec">
+    <meta name="twitter:title" content="What The Spec">
+    <meta name="twitter:description" content="Definitions on proposal stages for CSS, HTML & Javascript specifications">
+
     <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/icons/favicon-16x16.png">
@@ -42,5 +61,27 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="application/ld+json">
+      {
+          "@context": "http://schema.org",
+          "@type": "WebApplication",
+          "name": "What The Spec",
+          "url": "%PUBLIC_URL%",
+          "description": "Definitions on proposal stages for CSS, HTML & Javascript specifications",
+          "applicationCategory": "Tool",
+          "genre": "tool",
+          "about": {
+              "@type": "Thing",
+              "description": "W3C Recommendation track, W3C Technical Report Development Process, W3C Maturity Levels, HTML Living Standard, The TC39 Process"
+          },
+          "browserRequirements": "Requires JavaScript. Requires HTML5.",
+          "softwareVersion": "1.0.0",
+          "softwareHelp": {
+              "@type": "CreativeWork",
+              "url": "%PUBLIC_URL%"
+          },
+          "operatingSystem": "All"
+      }
+  </script>
   </body>
 </html>
