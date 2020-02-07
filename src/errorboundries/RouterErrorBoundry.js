@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+const styles = {
+    fontWeight: 'normal'
+}
+
 class RouterErrorBoundry extends Component {
 
     constructor(props) {
@@ -28,9 +32,9 @@ class RouterErrorBoundry extends Component {
     render() {
         if(this.state.hasError) {
             return (
-                <div style={{fontWeight: 'normal'}}>
-                    <h1>Oops! We've got nothing.</h1>
-                    <h3>Error loading route</h3>
+                <div>
+                    <h1 style={{...styles}}>Oops! We've got nothing.</h1>
+                    <h3 style={{...styles}}>Error loading route</h3>
                 </div>
             )
         }

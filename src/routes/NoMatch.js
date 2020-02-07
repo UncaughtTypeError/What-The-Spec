@@ -1,10 +1,14 @@
 import React from 'react';
 
+const styles = {
+    fontWeight: 'normal'
+}
+
 const NoMatch = () => (
     
-    <div style={{fontWeight: 'normal'}}>
-        <h1>Oops! We've got nothing.</h1>
-        <h3>Error loading route</h3>
+    <div>
+        <h1 style={{...styles}}>Oops! We've got nothing.</h1>
+        <h3 style={{...styles}}>Error loading route</h3>
     </div>
 
 );
