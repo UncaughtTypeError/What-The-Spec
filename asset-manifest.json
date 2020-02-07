@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/What-The-Spec/static/css/main.3b49d78a.chunk.css",
-    "main.js": "/What-The-Spec/static/js/main.68e9130a.chunk.js",
-    "main.js.map": "/What-The-Spec/static/js/main.68e9130a.chunk.js.map",
+    "main.js": "/What-The-Spec/static/js/main.3f26774e.chunk.js",
+    "main.js.map": "/What-The-Spec/static/js/main.3f26774e.chunk.js.map",
     "runtime-main.js": "/What-The-Spec/static/js/runtime-main.f1d0f519.js",
     "runtime-main.js.map": "/What-The-Spec/static/js/runtime-main.f1d0f519.js.map",
-    "static/js/2.d4810bf8.chunk.js": "/What-The-Spec/static/js/2.d4810bf8.chunk.js",
-    "static/js/2.d4810bf8.chunk.js.map": "/What-The-Spec/static/js/2.d4810bf8.chunk.js.map",
+    "static/js/2.63e76d69.chunk.js": "/What-The-Spec/static/js/2.63e76d69.chunk.js",
+    "static/js/2.63e76d69.chunk.js.map": "/What-The-Spec/static/js/2.63e76d69.chunk.js.map",
     "static/css/3.cec13087.chunk.css": "/What-The-Spec/static/css/3.cec13087.chunk.css",
     "static/js/3.2d15ad93.chunk.js": "/What-The-Spec/static/js/3.2d15ad93.chunk.js",
     "static/js/3.2d15ad93.chunk.js.map": "/What-The-Spec/static/js/3.2d15ad93.chunk.js.map",
@@ -22,19 +22,19 @@
     "static/js/7.fff34691.chunk.js": "/What-The-Spec/static/js/7.fff34691.chunk.js",
     "static/js/7.fff34691.chunk.js.map": "/What-The-Spec/static/js/7.fff34691.chunk.js.map",
     "index.html": "/What-The-Spec/index.html",
-    "precache-manifest.9c17cddb61aa953ef2ee6ebb71873858.js": "/What-The-Spec/precache-manifest.9c17cddb61aa953ef2ee6ebb71873858.js",
+    "precache-manifest.8a0e771a1f7c17a7d4b824cd98d6809d.js": "/What-The-Spec/precache-manifest.8a0e771a1f7c17a7d4b824cd98d6809d.js",
     "service-worker.js": "/What-The-Spec/service-worker.js",
     "static/css/3.cec13087.chunk.css.map": "/What-The-Spec/static/css/3.cec13087.chunk.css.map",
     "static/css/4.cec13087.chunk.css.map": "/What-The-Spec/static/css/4.cec13087.chunk.css.map",
     "static/css/5.cec13087.chunk.css.map": "/What-The-Spec/static/css/5.cec13087.chunk.css.map",
     "static/css/6.e780814d.chunk.css.map": "/What-The-Spec/static/css/6.e780814d.chunk.css.map",
     "static/css/main.3b49d78a.chunk.css.map": "/What-The-Spec/static/css/main.3b49d78a.chunk.css.map",
-    "static/js/2.d4810bf8.chunk.js.LICENSE": "/What-The-Spec/static/js/2.d4810bf8.chunk.js.LICENSE"
+    "static/js/2.63e76d69.chunk.js.LICENSE": "/What-The-Spec/static/js/2.63e76d69.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.f1d0f519.js",
-    "static/js/2.d4810bf8.chunk.js",
+    "static/js/2.63e76d69.chunk.js",
     "static/css/main.3b49d78a.chunk.css",
-    "static/js/main.68e9130a.chunk.js"
+    "static/js/main.3f26774e.chunk.js"
   ]
 }
