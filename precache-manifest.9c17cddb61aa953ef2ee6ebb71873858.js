@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abc70291055c4daf6f89736997314228",
+    "revision": "455e4f714e313b30134531dfc780185f",
     "url": "/What-The-Spec/index.html"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/What-The-Spec/static/css/6.e780814d.chunk.css"
   },
   {
-    "revision": "55fdbba1468a8f0127a0",
+    "revision": "72e9667ac1953e2ea93b",
     "url": "/What-The-Spec/static/css/main.3b49d78a.chunk.css"
   },
   {
-    "revision": "ab7e6a6ec692406a2af6",
-    "url": "/What-The-Spec/static/js/2.63e76d69.chunk.js"
+    "revision": "606d04adb6611cf20e7b",
+    "url": "/What-The-Spec/static/js/2.d4810bf8.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/What-The-Spec/static/js/2.63e76d69.chunk.js.LICENSE"
+    "url": "/What-The-Spec/static/js/2.d4810bf8.chunk.js.LICENSE"
   },
   {
     "revision": "3fe113061a77bd3979b6",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/What-The-Spec/static/js/7.fff34691.chunk.js"
   },
   {
-    "revision": "55fdbba1468a8f0127a0",
-    "url": "/What-The-Spec/static/js/main.3f26774e.chunk.js"
+    "revision": "72e9667ac1953e2ea93b",
+    "url": "/What-The-Spec/static/js/main.68e9130a.chunk.js"
   },
   {
     "revision": "f3752e79d16f0124d96b",
