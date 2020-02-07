@@ -29,7 +29,7 @@ class RouterErrorBoundry extends Component {
         if(this.state.hasError) {
             return (
                 <div style={{fontWeight: 'normal'}}>
-                    <h1>Oops! We got nothing.</h1>
+                    <h1>Oops! We've got nothing.</h1>
                     <h3>Error loading route</h3>
                 </div>
             )
