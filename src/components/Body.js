@@ -19,10 +19,10 @@ const Body = () => (
         <section className={styles.base}>
             <Suspense fallback={<div className={styles.title}>Loading...</div>}>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
-                    <Route path={`${process.env.PUBLIC_URL}/css`} component={CSS}/>
-                    <Route path={`${process.env.PUBLIC_URL}/html`} component={HTML}/>
-                    <Route path={`${process.env.PUBLIC_URL}/javascript`} component={Javascript}/>
+                    <Route exact path='/' component={Home}/>
+                    <Route path={'/css'} component={CSS}/>
+                    <Route path={'/html'} component={HTML}/>
+                    <Route path={'/javascript'} component={Javascript}/>
                     <Route component={NoMatch}/>
                 </Switch>
             </Suspense>
