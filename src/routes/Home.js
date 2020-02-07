@@ -5,7 +5,7 @@ import RandomQuote from '../containers/RandomQuote';
 
 const Home = () => (
    <Fragment>
-      <h3 style={{fontWeight: 'normal'}}>Select a language</h3>
+      <h3 style={{fontWeight: 'normal'}}>Select a language above</h3>
       <RandomQuote/>
    </Fragment>
 );
