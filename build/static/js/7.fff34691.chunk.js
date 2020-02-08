@@ -1,0 +1,2 @@
+(this["webpackJsonpWhat-The-Spec"]=this["webpackJsonpWhat-The-Spec"]||[]).push([[7],{59:function(e,t,a){"use strict";a.r(t);var n=a(10),c=a(0),h=a.n(c),l={fontWeight:"normal"};t.default=function(){return h.a.createElement("div",null,h.a.createElement("h1",{style:Object(n.a)({},l)},"Oops! We've got nothing."),h.a.createElement("h3",{style:Object(n.a)({},l)},"Select a language above"))}}}]);
+//# sourceMappingURL=7.fff34691.chunk.js.map
