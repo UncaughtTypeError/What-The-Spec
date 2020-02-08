@@ -30,7 +30,7 @@ export const CSS_spec = [
     {
         acronym: 'REC',
         stage: 'Recommendation',
-        phase: 'Endorsed (maintenance phase)',
+        phase: 'Endorsed (legacy phase)',
         definition: 'A W3C Recommendation is a specification or set of guidelines that, after extensive consensus-building, has received the endorsement of W3C Members and the Director. W3C recommends the wide deployment of its Recommendations.',
         organisation: 'W3C'
     }
@@ -68,7 +68,7 @@ export const HTML_spec = [
     {
         acronym: 'REC',
         stage: 'Recommendation',
-        phase: 'Endorsed (maintenance phase)',
+        phase: 'Endorsed (legacy phase)',
         definition: 'A W3C Recommendation is a specification or set of guidelines that, after extensive consensus-building, has received the endorsement of W3C Members and the Director. W3C recommends the wide deployment of its Recommendations.',
         organisation: 'W3C'
     },
