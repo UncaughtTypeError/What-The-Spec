@@ -37,6 +37,7 @@
     grid-gap: 2px;
     text-align: left;
     position: relative;
+    width: 100%;
 }
 
 .list .header {
@@ -119,7 +120,7 @@
     }
     
     .list:before {
-        height: 100%;
+        display: none;
     }
     
     .list .header {
@@ -128,14 +129,38 @@
     
     .list ul {
         grid-template-columns: minmax(auto, 1fr);
+        margin: 10px auto;
+        background: var(--ui-color-beta);
     }
 
-    .list ul:nth-child(even) li {
-        border-top: 1px solid var(--ui-color-beta);
+    .list ul:before {
+        content: "";
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.0) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.0) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.0) inset;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: calc(100% - 35px);
     }
     
-    .list ul:nth-child(odd) li {
-        border-top: 1px solid var(--ui-color-alpha);
+    .list ul > li:first-child {
+        position: relative;
+    }
+
+    .list ul > li:first-child:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        left: 80px;
+        background: var(--ui-color-alpha);
+    }
+    
+    .list ul li {
+        border-bottom: 1px solid var(--ui-color-alpha);
     }
 
 }

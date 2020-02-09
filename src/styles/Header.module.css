@@ -3,11 +3,15 @@
     font-size: 5em;
     margin: auto;
     opacity: .8;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-transform: uppercase;
 }
 
-.base h1 span {
+.base h1 > span {
+    position: relative;
+}
+
+.base h1 > span > span {
     font-size: calc(1em + 35px);
 }
 
@@ -15,10 +19,56 @@
     font-weight: normal;
 }
 
+.base h1 > span > span:not(:last-child):before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--ui-color-alpha);
+    position: absolute;
+    right: 100%;
+    background: #4a4a4a;
+    z-index: -1;
+}
+
+.base h1 > span > span:not(:last-child):nth-child(1):before {
+    left: -100px;
+    top: 0;
+}
+
+.base h1 > span > span:not(:last-child):nth-child(2):before {
+    left: -75px;
+    top: 25px;
+}
+
+.base h1 > span > span:not(:last-child):nth-child(3):before {
+    left: -50px;
+    top: 50px;
+}
+
 @media(max-width: 950px) {
 
     .base h1 {
         font-size: 3em;
+    }
+
+    .base h1 > span > span:not(:last-child):before {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .base h1 > span > span:not(:last-child):nth-child(1):before {
+        left: -55px;
+        top: -5px;
+    }
+    
+    .base h1 > span > span:not(:last-child):nth-child(2):before {
+        left: -40px;
+        top: 10px;
+    }
+    
+    .base h1 > span > span:not(:last-child):nth-child(3):before {
+        left: -25px;
+        top: 25px;
     }
 
 }
@@ -28,6 +78,21 @@
     .base h1 {
         font-size: 2em;
         line-height: 2em;
+    }
+
+    .base h1 > span > span:not(:last-child):nth-child(1):before {
+        left: -55px;
+        top: -25px;
+    }
+    
+    .base h1 > span > span:not(:last-child):nth-child(2):before {
+        left: -42px;
+        top: -12px;
+    }
+    
+    .base h1 > span > span:not(:last-child):nth-child(3):before {
+        left: -30px;
+        top: 0;
     }
 
 }

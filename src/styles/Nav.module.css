@@ -87,12 +87,24 @@
     .base ul > li {
         min-width: initial;
         min-height: initial;
-        flex-basis: 100%;
+        flex: 1;
         margin: 10px 10px;
     }
     
     .base ul {
         flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width: 450px) {
+
+    .base ul {
+        flex-direction: column;
+    }
+
+    .base ul > li {
+        max-width: none;
     }
 
 }
