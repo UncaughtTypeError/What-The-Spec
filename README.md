@@ -14,5 +14,5 @@ Definitions on proposal stages for CSS, HTML & Javascript specifications
 - Service worker enabled with runtime caching
 - PWA - progressive web app
 
-**Production:** [what-the-spec.com](https://what-the-spec.com/)
+**Production:** [what-the-spec.com](https://what-the-spec.com/)<br/>
 **Github Pages:** [uncaughttypeerror.github.io/What-The-Spec](https://uncaughttypeerror.github.io/What-The-Spec/)
